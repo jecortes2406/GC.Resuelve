@@ -1,31 +1,23 @@
 {
   "name": "gc.resuelve",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jecortes2406/GC.Resuelve.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/jecortes2406/GC.Resuelve/issues"
-  },
-  "homepage": "https://github.com/jecortes2406/GC.Resuelve#readme",
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "pg": "^8.23.0"
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
-    "@types/node": "^26.4.1",
-    "@types/pg": "^8.23.1",
-    "tsx": "^4.23.13",
-    "typescript": "^7.0.2"
+    "@types/node": "^20.11.0",
+    "@types/pg": "^8.11.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   }
 }
