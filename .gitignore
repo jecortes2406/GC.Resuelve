@@ -1,0 +1,15 @@
+# Dependencias de Node
+node_modules/
+
+# Archivo de configuración de entorno (¡Fundamental para proteger tus credenciales de PostgreSQL!)
+.env
+
+# Logs y archivos de depuración de npm o yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
