@@ -1,10 +1,14 @@
 # Dependencias de Node
 node_modules/
 
-# Archivo de configuración de entorno (¡Fundamental para proteger tus credenciales de PostgreSQL!)
+# Archivo de configuración de entorno (credenciales de PostgreSQL)
 .env
 
-# Logs y archivos de depuración de npm o yarn
+# Directorios de compilación de TypeScript
+dist/
+build/
+
+# Logs y archivos de depuración
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
